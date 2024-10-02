@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/send-email-task/static/css/main.31d6cfe0.css",
+    "main.js": "/send-email-task/static/js/main.00513b3b.js",
+    "static/js/453.ff373192.chunk.js": "/send-email-task/static/js/453.ff373192.chunk.js",
+    "index.html": "/send-email-task/index.html",
+    "main.00513b3b.js.map": "/send-email-task/static/js/main.00513b3b.js.map",
+    "453.ff373192.chunk.js.map": "/send-email-task/static/js/453.ff373192.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.00513b3b.js"
+  ]
+}
