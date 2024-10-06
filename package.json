@@ -1,17 +1,22 @@
 {
   "name": "send-email",
   "version": "0.1.0",
+  "homepage": "https://ameerhellaly.github.io/send-email-task",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^6.1.2",
+    "@mui/x-date-pickers": "^7.19.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "dayjs": "^1.11.13",
     "react": "^18.3.1",
+    "react-clock": "^5.0.0",
     "react-dom": "^18.3.1",
+    "react-live-clock": "^6.1.23-beta",
     "react-scripts": "5.0.1",
     "sweetalert2": "^11.14.1",
     "web-vitals": "^2.1.4"
@@ -20,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
