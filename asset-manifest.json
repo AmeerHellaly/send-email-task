@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/send-emagitil-task/static/css/main.29e63f18.css",
-    "main.js": "/send-emagitil-task/static/js/main.d13b8283.js",
-    "static/js/453.ff373192.chunk.js": "/send-emagitil-task/static/js/453.ff373192.chunk.js",
-    "index.html": "/send-emagitil-task/index.html",
-    "main.29e63f18.css.map": "/send-emagitil-task/static/css/main.29e63f18.css.map",
-    "main.d13b8283.js.map": "/send-emagitil-task/static/js/main.d13b8283.js.map",
-    "453.ff373192.chunk.js.map": "/send-emagitil-task/static/js/453.ff373192.chunk.js.map"
+    "main.css": "/send-email-task/static/css/main.29e63f18.css",
+    "main.js": "/send-email-task/static/js/main.8d387d99.js",
+    "static/js/453.ff373192.chunk.js": "/send-email-task/static/js/453.ff373192.chunk.js",
+    "index.html": "/send-email-task/index.html",
+    "main.29e63f18.css.map": "/send-email-task/static/css/main.29e63f18.css.map",
+    "main.8d387d99.js.map": "/send-email-task/static/js/main.8d387d99.js.map",
+    "453.ff373192.chunk.js.map": "/send-email-task/static/js/453.ff373192.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29e63f18.css",
-    "static/js/main.d13b8283.js"
+    "static/js/main.8d387d99.js"
   ]
 }
