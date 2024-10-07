@@ -8,13 +8,12 @@ import  TextField  from '@mui/material/TextField'
 import Container  from '@mui/material/Container'
 import 'react-clock/dist/Clock.css';    
 import DigitalClock from '../utils/DigitalClock'
-import { LocalizationProvider } from '@mui/x-date-pickers'
-import { DemoContainer } from '@mui/x-date-pickers/internals/demo';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'; 
 import timezone from 'dayjs/plugin/timezone'; 
-import { MobileTimePicker } from '@mui/x-date-pickers/MobileTimePicker';
+import StopWatch from '../utils/StopWatch'
+import TimePickerUi from '../Ui/TimePickerUi'
 dayjs.extend(utc)
 dayjs.extend(timezone)
 const SendEmail = () => {
@@ -115,19 +114,10 @@ const handleSubmit=(e)=>{
                             label='Message'
                             value={message}
                             onChange={(e)=>setMessage(e.target.value)}
-                        />
-                  
-                        <LocalizationProvider dateAdapter={AdapterDayjs}>
-                            <DemoContainer components={['TimePicker']}>
-                                <MobileTimePicker value={selectedTime}
-                                minutesStep={1}
-                                 onChange={(newValue=>setSelectedTime(newValue))}
-                                  renderInput={(params) => <TextField {...params} fullWidth />}
-                                   label={'Basic time picker'}
-                                   />
-                            </DemoContainer>
-                        </LocalizationProvider>
-                            <Button fullWidth sx={{mt:3}}  variant='contained' type='submit' >Send Email</Button>
+                        />       
+                       <TimePickerUi selectedTime={selectedTime} setSelectedTime={setSelectedTime}/>
+                            <Button fullWidth sx={{mt:3}}  variant='contained' type='submit' >Send Email</Button> 
+                            <StopWatch/>
                     </form>
                 </Box>
             </Box>

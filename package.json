@@ -1,7 +1,7 @@
 {
   "name": "send-email",
   "version": "0.1.0",
-  "homepage": "https://ameerhellaly.github.io/send-emagitil-task",
+  "homepage": "https://ameerhellaly.github.io/send-email-task",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
